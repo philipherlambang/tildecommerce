@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Tilde.id, the Living Community">
+    <meta name="author" content="Philip Herlambang">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+
+    <meta name="twitter:card" content="summary">
+    <meta name="title" content="Tilde.id">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Language" content="en-id">
+
+
+    <!-- open graph metadata facebook, slack, whatsapp line -->
+    <meta property="fb:app_id" content="150112802189143"/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Tilde.id" />
+    <meta property='og:site_name' content='Tilde.id, the Living Community' />
+    <meta property="og:url" content="http://kimistatic.s3-website-ap-southeast-1.amazonaws.com/" />
+    <meta property="og:description" content="Tilde.id, the Living Community" />
+    <meta property='og:image' content="https://s3-ap-southeast-1.amazonaws.com/static.tilde.id/images/apple-touch-icon.png" />
+
+
+    <!-- open graph metadata twitter -->
+    <meta name="twitter:title" content="Tilde.id">
+    <meta name="twitter:url" content="http://www.tilde.id">
+    <meta name="twitter:description" content="Tilde.id, the Living Community">
+    <meta name="twitter:image" content="https://s3-ap-southeast-1.amazonaws.com/static.tilde.id/images/apple-touch-icon.png">
+    <meta name="twitter:site" content="@tildeofficial">
+
+
+    <link rel="icon" href="https://s3-ap-southeast-1.amazonaws.com/static.tilde.id/images/favicon.ico">
+    <link rel="apple-touch-icon" href="https://s3-ap-southeast-1.amazonaws.com/static.tilde.id/images/apple-touch-icon.png">
+
+    <title>Tilde Commerce</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/kimi.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl_carousel/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl_carousel/owl.theme.default.css">
+
+    <!-- slick carousel -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
+
+    <!--tipue search-->
+    <link rel="stylesheet" href="css/tipuesearch/tipuesearch.css">
+
+    <!-- jasny -->
+    <link rel="stylesheet" href="css/jasny/jasny-bootstrap.css">
+
+</head>
+
+<body>
+
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+  <a class="navmenu-brand" href="index.html">Tilde</a>
+  <ul class="nav navmenu-nav">
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
+      <ul class="dropdown-menu navmenu-nav">
+        <li><a href="#">Bedding</a></li>
+        <li><a href="#">Lighting</a></li>
+        <li><a href="#">Pillow and Decor</a></li>
+        <li><a href="#">Wall Art and Mirror</a></li>
+        <li><a href="#">Table Top</a></li>
+        <li><a href="#">Glassware</a></li>
+      </ul>
+    </li>
+    <li><a href="photos.html">Photos</a></li>
+    <li><a href="articles.html">Stories</a></li>
+    <li><a href="questions.html">FAQs</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture <b class="caret"></b></a>
+          <ul class="dropdown-menu navmenu-nav">
+            <li><a href="#">Living Room</a></li>
+            <li><a href="#">Dining Room and Kitchen</a></li>
+            <li><a href="#">Bed Room</a></li>
+            <li><a href="#">Home Office</a></li>
+            <li><a href="#">Accent Furniture</a></li>
+            <li><a href="#">Office Furniture</a></li>
+          </ul>
+        </li>
+  </ul>
+</div>
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+</div>
+
+
+<nav class="navbar navbar-default navbar-fixed-top hidden-xs">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="54"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Living Room</a></li>
+                                <li><a href="#">Dining Room and Kitchen</a></li>
+                                <li><a href="#">Bed Room</a></li>
+                                <li><a href="#">Home Office</a></li>
+                                <li><a href="#">Accent Furniture</a></li>
+                                <li><a href="#">Office Furniture</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Bedding</a></li>
+                        <li><a href="#">Lighting</a></li>
+                        <li><a href="#">Pillow and Decor</a></li>
+                        <li><a href="#">Wall Art and Mirror</a></li>
+                        <li><a href="#">Table Top</a></li>
+                        <li><a href="#">Glassware</a></li>
+                    </ul>
+                </li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="articles.html">Stories</a></li>
+                <li><a href="questions.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="shoppingCart.html">Cart <span class="badge">42</span> </a></li>
+                <li><a href="#">Search</a></li>
+                
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+
+<div class="container-fluid less-padding">
+    <div class="homepage-slider owl-carousel owl-theme">
+        <div class="item" style="background: #D4E4F1;">
+            <div class="heading-large"><h2>Swoon Lounge Chair</h2>
+                <h4>By : Sellemore</h4>
+                <h3 class="price">Rp 2.700.000</h3>
+                <a href="product.html" class="btn">Buy</a>
+                
+            </div>
+            <img src="images/slider1.jpg" width="">
+        </div>
+        
+    </div>
+</div>
+
+<div class="container-fluid less-padding">
+    <div class="maya-small-padding"></div>
+    <h2 class="text-thin text-center spacing-minus">Create the Home You've Always Wanted</h2>
+    <div class="maya-tiny-padding"></div>
+    <div class="small-slider owl-carousel owl-theme">
+        <a href="products.html" class="item">
+            <img src="images/arsitek_icon.png">
+            <h6 class="small-text-overlay text-center">Architects</h6>
+        </a>
+
+        <a href="products.html" class="item">
+            <img src="images/interior_designer_icon.png">
+            <h6 class="small-text-overlay text-center">Interior Designer</h6>
+        </a>
+
+        <a href="products.html" class="item">
+            <img src="images/contractors_icon.png">
+            <h6 class="small-text-overlay text-center">Contractors</h6>
+        </a>
+
+        <a href="products.html" class="item">
+            <img src="images/home_builders_icon.png">
+            <h6 class="small-text-overlay text-center">Home Builders</h6>
+        </a>
+
+        <a href="products.html" class="item">
+            <img src="images/landscape_designer_icon.png">
+            <h6 class="small-text-overlay text-center">Landscape Designer</h6>
+        </a>
+
+        <a href="products.html" class="item">
+            <img src="images/furniture_repairs_icon.png">
+            <h6 class="small-text-overlay text-center">Furniture Repairs</h6>
+        </a>
+
+        <a href="products.html" class="item">
+            <img src="images/aircon_icon.png">
+            <h6 class="small-text-overlay text-center">Air Conditioning</h6>
+        </a>
+
+        <a href="products.html" class="item">
+            <img src="images/plumbers_icon.png">
+            <h6 class="small-text-overlay text-center">Plumbers</h6>
+        </a>
+    </div>
+</div>
+
+<div class="clearfix maya-tiny-padding"></div>
+<div class="container-fluid less-padding">
+    <div>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Popular</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">New Products</a></li>
+        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Best Deal</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="home">
+            <div class="responsive">
+                <div class="col-sm-6 col-md-4">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/stool1.jpg" alt="stool">
+                        <img src="images/sale_badge.png" class="sale-badge">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/table.jpg" alt="Table">
+                        <img src="images/sale_badge.png" class="sale-badge">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/vintage.jpg" alt="vintage 50s">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/side_table.jpg" alt="side table">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/table.jpg" alt="Table">
+                        <img src="images/sale_badge.png" class="sale-badge">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="profile">
+            <div class="responsive">
+                <div class="col-sm-6 col-md-4">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/photos/29.jpg" alt="">
+                        <img src="images/sale_badge.png" class="sale-badge">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/photos/55b.jpg" alt="">
+                        <img src="images/sale_badge.png" class="sale-badge">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/photos/84.jpg" alt="">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/photos/86b.jpg" alt="">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/photos/Accuhichair1b.jpg" alt="Table">
+                        <img src="images/sale_badge.png" class="sale-badge">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="messages">
+            <div class="responsive">
+                <div class="col-sm-6 col-md-4">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/stool1.jpg" alt="stool">
+                        <img src="images/sale_badge.png" class="sale-badge">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/photos/ALC201B.jpg" alt="Table">
+                        <img src="images/sale_badge.png" class="sale-badge">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/photos/one-seater-2a.jpg" alt="vintage 50s">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/Ville-DiningNew-Table.jpg" alt="side table">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                    <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                        <img src="images/table.jpg" alt="Table">
+                        <img src="images/sale_badge.png" class="sale-badge">
+                    </a>
+                    <div class="caption box">
+                        <h3>Rp 1.000.000</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                <p class="min-order">Shop Bar Stools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+<div class="container-fluid less-padding">
+    <a href="#">
+        <img src="images/banner_full_width.png" width="100%">
+    </a>
+</div>
+
+
+
+
+
+
+<!--include footer-->
+<div class="include-footer"></div>
+
+<script src="./js/jquery.min.js"></script>
+
+<!-- owl carousel -->
+<script src="js/owl_carousel/owl.carousel.js"></script>
+
+<!--boostrap js-->
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jasny/jasny-bootstrap.js"></script>
+
+<!--tipuesearch-->
+<script src="js/tipusearch/tipuesearch_content.js"></script>
+<script src="js/tipusearch/tipuesearch_set.js"></script>
+<script src="js/tipusearch/tipuesearch.js"></script>
+
+<script src="js/slick/slick.js"></script>
+
+<!--kimi basic js-->
+<script src="js/kimi.js"></script>
+
+<!-- slick carousel -->
+<script type="text/javascript">
+    $('.responsive').slick({
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+</script>
+
+</body>
+</html>
