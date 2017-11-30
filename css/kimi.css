@@ -676,13 +676,14 @@ button, a{
 }
 
 .button-black{
-    background: #000;
+    background: #3E3F44;
     color: #ffffff;
-    padding: 15px 25px;
-    font-size: 16px;
+    padding: 8px 20px;
+    font-size: 12px;
     font-weight: 500;
-    border-radius: 2px;
-    border: 1px solid black;
+    border-radius: 18px;
+    border: 1px solid #3E3F44;
+    letter-spacing: 1px;
 }
 
 .button-black:hover{

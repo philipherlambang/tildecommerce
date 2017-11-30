@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="Kimi is a curated foods and beverages artisans.">
+    <meta name="description" content="Tilde.id, the Living Community">
     <meta name="author" content="Philip Herlambang">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
 
 
     <meta name="twitter:card" content="summary">
-    <meta name="title" content="Back to Kimi">
+    <meta name="title" content="Tilde.id">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="Content-Language" content="en-id">
@@ -22,25 +22,25 @@
     <!-- open graph metadata facebook, slack, whatsapp line -->
     <meta property="fb:app_id" content="150112802189143"/>
     <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="Back to Kimi" />
-    <meta property='og:site_name' content='Kimi | Curated Foods and Beverages' />
+    <meta property="og:title" content="Tilde.id" />
+    <meta property='og:site_name' content='Tilde.id, the Living Community' />
     <meta property="og:url" content="http://kimistatic.s3-website-ap-southeast-1.amazonaws.com/" />
-    <meta property="og:description" content="Kimi is a curated foods and beverages artisans." />
-    <meta property='og:image' content="https://s3-ap-southeast-1.amazonaws.com/kimistatic/images/apple-touch-icon.png" />
+    <meta property="og:description" content="Tilde.id, the Living Community" />
+    <meta property='og:image' content="https://s3-ap-southeast-1.amazonaws.com/static.tilde.id/images/apple-touch-icon.png" />
 
 
     <!-- open graph metadata twitter -->
-    <meta name="twitter:title" content="Back to Kimi">
-    <meta name="twitter:url" content="http://www.backtokimi.com">
-    <meta name="twitter:description" content="Kimi is a curated foods and beverages artisans.">
-    <meta name="twitter:image" content="https://s3-ap-southeast-1.amazonaws.com/kimistatic/images/apple-touch-icon.png">
-    <meta name="twitter:site" content="@backtokimi">
+    <meta name="twitter:title" content="Tilde.id">
+    <meta name="twitter:url" content="http://www.tilde.id">
+    <meta name="twitter:description" content="Tilde.id, the Living Community">
+    <meta name="twitter:image" content="https://s3-ap-southeast-1.amazonaws.com/static.tilde.id/images/apple-touch-icon.png">
+    <meta name="twitter:site" content="@tildeofficial">
 
 
-    <link rel="icon" href="https://s3-ap-southeast-1.amazonaws.com/kimistatic/images/favicon.ico">
-    <link rel="apple-touch-icon" href="https://s3-ap-southeast-1.amazonaws.com/kimistatic/images/apple-touch-icon.png">
+    <link rel="icon" href="https://s3-ap-southeast-1.amazonaws.com/static.tilde.id/images/favicon.ico">
+    <link rel="apple-touch-icon" href="https://s3-ap-southeast-1.amazonaws.com/static.tilde.id/images/apple-touch-icon.png">
 
-    <title>Article Details</title>
+    <title>Tilde Commerce</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -51,142 +51,111 @@
     <link rel="stylesheet" href="css/owl_carousel/owl.carousel.css">
     <link rel="stylesheet" href="css/owl_carousel/owl.theme.default.css">
 
+    <!-- slick carousel -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
+
+    <!--tipue search-->
+    <link rel="stylesheet" href="css/tipuesearch/tipuesearch.css">
+
+    <!-- jasny -->
+    <link rel="stylesheet" href="css/jasny/jasny-bootstrap.css">
+
 </head>
 
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid hidden-xs">
-        <div class="row">
-            <div class="col-md-4 col-sm-4">
-                <button class="pull-left search-button" id="buttonOpenSearchbar"><i class="fa fa-search" aria-hidden="true"></i></button>
-                <button class="pull-left search-button" id="buttonCloseSearchbar" style="display: none;"><i class="fa fa-times" aria-hidden="true"></i></button>
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+  <a class="navmenu-brand" href="index.html">Tilde</a>
+  <ul class="nav navmenu-nav">
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
+      <ul class="dropdown-menu navmenu-nav">
+        <li><a href="#">Bedding</a></li>
+        <li><a href="#">Lighting</a></li>
+        <li><a href="#">Pillow and Decor</a></li>
+        <li><a href="#">Wall Art and Mirror</a></li>
+        <li><a href="#">Table Top</a></li>
+        <li><a href="#">Glassware</a></li>
+      </ul>
+    </li>
+    <li><a href="photos.html">Photos</a></li>
+    <li><a href="articles.html">Stories</a></li>
+    <li><a href="questions.html">FAQs</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture <b class="caret"></b></a>
+          <ul class="dropdown-menu navmenu-nav">
+            <li><a href="#">Living Room</a></li>
+            <li><a href="#">Dining Room and Kitchen</a></li>
+            <li><a href="#">Bed Room</a></li>
+            <li><a href="#">Home Office</a></li>
+            <li><a href="#">Accent Furniture</a></li>
+            <li><a href="#">Office Furniture</a></li>
+          </ul>
+        </li>
+  </ul>
+</div>
 
-                <div id="searchbar" style="display: none;">
-                    <div>
-                        <div class="top-nav-searchbar">
-                            <div class="input-group">
-                                <form action="search.html">
-                                    <input class="form-control" type="text" name="q" id="tipue_search_input" placeholder="Search for" autofocus="autofocus">
-                                </form>
-                            </div><!-- /input-group -->
-                        </div>
-                    </div>
-                </div>
-                <p class="help-text hidden-sm hidden-md" id="helpText">Find any troubles? Drop us an email at <a href="mailto:grow@backtokimi.com" class="text-secondary">grow@backtokimi.com</a> </p>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <p class="text-center logo-container"><a href="index.html"><img src="images/logo.png" width="100"></a></p>
-            </div>
-            <div class="col-md-4 less-padding-right">
-                <a href="registerMerchant.html" class="btn pull-right button-green-top-nav">Be Kimi Merchant</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid" style="background: white;">
-        <div class="navbar-header pull-left">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar icon-short"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar icon-medium"></span>
-            </button>
-        </div>
-        <div class="visible-xs logo-center">
-            <p class="text-center logo-container visible-xs"><a href="index.html"><img src="images/logo.png" width="90"></a></p>
-        </div>
-        <div class="visible-xs pull-right">
-            <button class="pull-left search-button-mobile" id="buttonOpenSearchbarMobile"><i class="fa fa-search" aria-hidden="true"></i></button>
-        </div>
-        <div class="clearfix"></div>
-
-        <div class="fly-searchbar" style="display: none;">
-            <div class="top-nav-searchbar searchbar-mobile">
-                <div class="input-group">
-                    <form action="search.html">
-                        <input class="form-control" type="text" name="q" id="tipue_search_input" placeholder="Search for" autofocus="autofocus">
-                    </form>
-                    <button class="pull-right" id="buttonCloseSearchbarMobile"><i class="fa fa-times" aria-hidden="true"></i></button>
-                </div>
-            </div>
-        </div>
+<div class="navbar navbar-default navbar-fixed-top">
+  <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+</div>
 
 
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Shop</a></li>
-                <li class="active"><a href="articles.html">Articles</a></li>
-                <li><a href="merchantGuide.html">Chef Guide</a></li>
+<nav class="navbar navbar-default navbar-fixed-top hidden-xs">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="54"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Location <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Jakarta Barat</a></li>
-                        <li><a href="#">Jakarta Selatan</a></li>
-                        <li><a href="#">Jakarta Pusat</a></li>
-                        <li><a href="#">Jakarta Utara</a></li>
-                        <li><a href="#">Jakarta Timur</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Depok</a></li>
-                        <li><a href="#">Tangerang</a></li>
-                    </ul>
-                </li>
-                <li><a href="questions.html">FAQs</a></li>
-                <li><a href="about.html">About Kimi</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="chefDirectory.html">Chef Directory</a></li>
-                <li><a href="login.html">Login / Register</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cart (2)</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="cart-flyout">
-                                <h4 class="text-oswald">Recently Added Product(s)</h4>
-                                <div class="row">
-                                    <div class="col-sm-2 col-xs-3 less-padding">
-                                        <img src="images/brownies.jpg" width="100%">
-                                    </div>
-                                    <div class="col-sm-8 col-xs-9">
-                                        <span class="text-gray-1">Brownies Chocolate</span>
-                                        <p class="text-gray-2">1 x 50.000</p>
-                                    </div>
-                                    <!--<div class="col-sm-2">-->
-                                    <!--<button><i class="fa fa-times-circle" aria-hidden="true"></i></button>-->
-                                    <!--</div>-->
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-2 col-xs-3 less-padding">
-                                        <img src="images/lapisSurabaya.jpg" width="100%">
-                                    </div>
-                                    <div class="col-sm-8 col-xs-9">
-                                        <span class="text-gray-1">Lapis Surabaya</span>
-                                        <p class="text-gray-2">1 x 175.000</p>
-                                    </div>
-
-                                </div>
-                                <hr>
-
-                                <div class="row">
-                                    <div class="col-sm-6 col-xs-6 less-padding"><h4><small>Total</small><br><span>IDR 225.000</span></h4></div>
-                                    <div class="col-sm-6 col-xs-6 less-padding">
-                                        <a href="checkout2.html" class="button-green-top-nav btn pull-right btn-block text-oswald text-uppercase">View Cart</a>
-                                    </div>
-                                </div>
-
-                            </div>
+                        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Living Room</a></li>
+                                <li><a href="#">Dining Room and Kitchen</a></li>
+                                <li><a href="#">Bed Room</a></li>
+                                <li><a href="#">Home Office</a></li>
+                                <li><a href="#">Accent Furniture</a></li>
+                                <li><a href="#">Office Furniture</a></li>
+                            </ul>
                         </li>
+                        <li><a href="#">Bedding</a></li>
+                        <li><a href="#">Lighting</a></li>
+                        <li><a href="#">Pillow and Decor</a></li>
+                        <li><a href="#">Wall Art and Mirror</a></li>
+                        <li><a href="#">Table Top</a></li>
+                        <li><a href="#">Glassware</a></li>
                     </ul>
                 </li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="articles.html">Stories</a></li>
+                <li><a href="questions.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
-        </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="shoppingCart.html">Cart <span class="badge">42</span> </a></li>
+                <li><a href="#">Search</a></li>
+                
+            </ul>
+        </div><!--/.nav-collapse -->
     </div>
 </nav>
 
 <div class="container">
-    <div class="maya-tiny-padding"></div>
     <div class="kimi-container">
         <!--breadcrumb start-->
         <ol class="breadcrumb hidden-xs">
@@ -197,72 +166,47 @@
 
 
         <article>
-            <div class="article-header">
-                <div class="row">
-                    <h1 class="heading-large text-center" itemprop="name">Risotto Lemon Seafood Combining the Impossible</h1>
-                </div>
-
-                <div class="maya-tiny-padding"></div>
-                <div class="row info">
-                    <p class="text-center">Article by <strong>Kimi Editorial</strong> <span itemprop="publishedAt" datetime="2017-09-12T13:18:13+00:00">September 12</span></p>
-                </div>
-                <div class="row text-center">
-                    <div class="list-share-circles">
-                        <ul>
-                            <li>
-                                <button class="bt-circle">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </button>
-                            </li>
-                            <li>
-                                <button class="bt-circle">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </button>
-                            </li>
-                            <li>
-                                <button class="bt-circle">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </button>
-                            </li>
-                            <li>
-                                <button class="bt-circle">
-                                    <i class="fa fa-google" aria-hidden="true"></i>
-                                </button>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
             <div class="article-body">
                 <div class="row">
                     <div style="position: relative;">
-                        <img src="images/risotto.jpg" width="100%">
+                        <img src="images/photos/1_big.jpg" width="100%">
+                    </div>
 
-                        <button class="text-gray-2 hidden-xs" id="imageMetainfo">
-                            <i class="fa fa-info-circle" aria-hidden="true" style="font-size: 20px; color:#333;"></i>
-                        </button>
+                    <div class="article-header">
+                        <div class="row">
+                            <h1 class="heading-large text-center" itemprop="name">How to Set Your Multimedia Room with Low Budget</h1>
+                        </div>
 
+                        <div class="maya-tiny-padding"></div>
+                        <div class="row info">
+                            <p class="text-center">Article by <strong>Kimi Editorial</strong> <span itemprop="publishedAt" datetime="2017-09-12T13:18:13+00:00">September 12</span></p>
+                        </div>
+                        <div class="row text-center">
+                            <div class="list-share-circles">
+                                <ul>
+                                    <li>
+                                        <button class="bt-circle">
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="bt-circle">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="bt-circle">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="bt-circle">
+                                            <i class="fa fa-google" aria-hidden="true"></i>
+                                        </button>
+                                    </li>
 
-                        <div class="metainfo-wrapper hidden-xs" style="display: none;" id="metainfoWrapper">
-                            <h5>Make</h5>
-                            <p>Canon</p>
-
-                            <h5>Location</h5>
-                            <p>Kimi Studio</p>
-
-                            <h5>Photographer</h5>
-                            <p>Julien Pianetti</p>
-
-                            <h5>Property</h5>
-                            <p>Kimi's Property</p>
-
-                            <h5>Style</h5>
-                            <p>Julien Pianetti</p>
-
-                            <h5>Date</h5>
-                            <p>September 17 2017</p>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
@@ -317,10 +261,10 @@
                             <img src="images/article1.jpg" alt="article title">
                         </a>
                         <div class="caption box">
-                            <h3>Lemon Seafood Risotto</h3>
+                            <h3 class="text-left">Lemon Seafood Risotto</h3>
                             <div class="row">
                                 <div class="col-sm-8 col-xs-6">
-                                    <p>Kimi Editorial's Pick</p>
+                                    <p class="text-left">Kimi Editorial's Pick</p>
                                     <span class="last-text">September 14, 2017</span>
                                 </div>
 
@@ -339,10 +283,10 @@
                             <img src="images/article2.jpg" alt="article title">
                         </a>
                         <div class="caption box">
-                            <h3>Lemon Seafood Risotto</h3>
+                            <h3 class="text-left">Lemon Seafood Risotto</h3>
                             <div class="row">
                                 <div class="col-sm-8 col-xs-6">
-                                    <p>Kimi Editorial's Pick</p>
+                                    <p class="text-left">Kimi Editorial's Pick</p>
                                     <span class="last-text">September 14, 2017</span>
                                 </div>
 
