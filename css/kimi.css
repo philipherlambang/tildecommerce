@@ -418,6 +418,12 @@ a.text-secondary:hover{
     border: none;
 }
 
+.shadow{
+    -moz-box-shadow: 0px 2px 6px #f5f5f5;
+    -webkit-box-shadow: 0px 2px 6px #f5f5f5;
+    box-shadow: 0px 2px 6px #f5f5f5;
+}
+
 #navbar{
     min-height: 100px;
     background: none;
@@ -520,7 +526,7 @@ a.text-secondary:hover{
 
 /*article*/
 .article-header .row h1, .heading-large{
-    width: 700px;
+    /*width: 700px;*/
     max-width: 100%;
     margin: 0 auto;
     font-size: 48px;
@@ -714,21 +720,31 @@ button, a{
     overflow: auto;
 }
 
-.button-add-to-bag{
-    background: #8b0000;
-    color: #ffffff;
-    padding: 15px 25px;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    border-radius: 2px;
-    border: 1px solid #8b0000;
+.product-detail-action-button-container button{
+    margin-right: 10px;
+    border-radius: 18px;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
 }
 
-.button-add-to-bag:hover{
-    background: black;
+.product-detail-action-button-container .button-dark{
+    background: #3E3F44;
     color: white;
-    border: 1px solid black;
+    border: 1px solid #3E3F44;
+}
+
+.product-detail-action-button-container .button-yellow{
+    background: #FBDB00;
+    color: black;
+    border: 1px solid #FBDB00;
+}
+
+.product-detail-action-button-container .button-brown{
+    background: #CDBD9C;
+    color: black;
+    border: 1px solid #CDBD9C;
 }
 
 
@@ -1223,24 +1239,24 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
     letter-spacing: 0.4px;
     font-family:Roboto;
     font-weight:300;
-    font-size: 14px;
-    border: 1px solid #E7EAEA;
-    padding: 8px 20px;
-    border-radius: 2px;
-    background: white;
+    font-size: 12px;
+    border: 1px solid #FBDB00;
+    padding: 5px 15px;
+    border-radius: 18px;
+    background: #FBDB00;
     margin-bottom: 10px;
 }
 
 .product-description{
-    color: #4A4A4A;
+    color: #545454;
     font-size:16px;
     line-height: 24px;
 }
 
 .product-detail-tag-container button:hover{
-    background: #8b0000;
-    border: 1px solid #8b0000;
-    color:#ffffff;
+    background: #FBDB00;
+    border: 1px solid #FBDB00;
+    color:#000;
 }
 
 .merchant-menu{
@@ -1310,16 +1326,28 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 .button-primary{
     font-family: 'Roboto';
     color:white;
-    background: #8b0000;
+    background: #3E3F44;
     font-size:12px;
-    border-radius: 2px;
-    padding: 3px 12px;
+    border-radius: 18px;
+    padding: 8px 12px;
     letter-spacing: 0.4px;
 }
 
 .button-primary:hover{
     background: black;
     color: #ffffff;
+}
+
+.button-yellow{
+    background: #FBDB00;
+    color: black;
+    border: 1px solid #fbdb00;
+    border-radius: 18px;
+}
+
+.button-yellow:hover{
+    background: #000;
+    color: white;
 }
 
 .button-red i, .button-green i{
@@ -1376,6 +1404,10 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
     /*font-weight:bold;*/
 }
 
+.nav-stacked>li.active{
+    background: #FBDB00;
+}
+
 .nav-stacked-kimi li a{
     background: #F4F7F6;
     border: 1px solid #E7EAEA;
@@ -1395,6 +1427,80 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 .va-middle{
     vertical-align: middle !important;
 }
+
+.nav-stacked li a{
+    color: #3E3F44;
+    font-size: 16px;
+}
+
+.button-paint-color button{
+    width: 36px;
+    height: 36px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.paint-peach{
+    background: #F5EFDF;
+    border: 1px solid #F5EFDF;
+}
+
+.paint-light-brown{
+    background: #E5D6B5;
+    border: 1px solid #E5D6B5;
+}
+
+.paint-white{
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.paint-purple{
+    background: #89008E;
+    border: 1px solid #89008E;
+}
+
+.paint-green{
+    background: #519B42;
+    border: 1px solid #519B42;
+}
+
+.paint-red{
+    background: #C9230C;
+    border: 1px solid #8b0000;
+}
+
+.paint-blue{
+    background: #3F4A76;
+    border: 1px solid #3F4A76;
+}
+
+.paint-black{
+    background: #000;
+    border: 1px solid #000;
+}
+
+.paint-dark-gray{
+    background: #333;
+    border: 1px solid #333;
+}
+
+.paint-pink{
+    background: #D139CE;
+    border: 1px solid #D139CE;
+}
+
+.paint-brown{
+    background: #9B7413;
+    border: 1px solid #9B7413;
+}
+
+.paint-magenta{
+    background: #9B134E;
+    border: 1px solid #9B134E;
+}
+
 
 
 /*about*/
@@ -1455,7 +1561,7 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 }
 
 .box h3{
-    font-family: Roboto;
+    font-family: Helvetica;
     font-size: 18px;
     font-weight: 400;
     color: #4a4a4a;
@@ -1769,6 +1875,10 @@ ul.pagination li.current a{
     margin-right: -10px;
     border: 1px solid #f5f5f5;
     float: left;
+}
+
+.table-product-spec>tbody>tr>td, .table-product-spec>tbody>tr>th, .table-product-spec>tfoot>tr>td, .table-product-spec>tfoot>tr>th, .table-product-spec>thead>tr>td, .table-product-spec>thead>tr>th{
+    padding: 10px 0;
 }
 
 /* --------------- Phone smaller start ------------------------ */
@@ -2401,3 +2511,6 @@ and (orientation : landscape) {
         color: #2B2C31;
     }
 }
+
+
+

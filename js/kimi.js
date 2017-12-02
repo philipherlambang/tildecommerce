@@ -1,11 +1,13 @@
 (function () {
 
     $(window).on("scroll", function() {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 10) {
            $("nav").css("background","#fff");
+           $(".navbar-default").addClass("shadow");
         }
         else {
            $("nav").css("background","none");
+           $(".navbar-default").removeClass("shadow");
         }
     });
     
