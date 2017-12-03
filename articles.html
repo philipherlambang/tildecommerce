@@ -147,9 +147,32 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="shoppingCart.html">Cart <span class="badge">42</span> </a></li>
                 <li><a href="#">Search</a></li>
-                
+                <li><a href="login.html">Sign in</a></li>
+                <li class="dropdown">
+                    <a href="#" 
+                        class="dropdown-toggle" 
+                        data-toggle="dropdown" 
+                        role="button" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                    >
+                    <img src="images/cart.png"> <span class="badge">0</span> </a></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="cart-flyout">
+                                <h5 class="text-roboto text-center">Recently Added Product(s)</h5>
+                                <div class="row">
+                                    <div class="col-xs-12 text-center">
+                                        <img src="images/emptycart.png" width="150">
+                                        <div class="maya-tiny-padding"></div>
+                                        <p class="text-roboto-light">Your Basket is Empty</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>  
             </ul>
         </div><!--/.nav-collapse -->
     </div>
