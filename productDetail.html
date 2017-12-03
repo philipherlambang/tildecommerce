@@ -147,7 +147,45 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="shoppingCart.html">Cart <span class="badge">42</span> </a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cart (2)</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="cart-flyout">
+                                <h4 class="text-roboto">Your Basket</h4>
+                                <div class="row">
+                                    <div class="col-sm-3 col-xs-3 less-padding">
+                                        <img src="images/stool1.jpg" width="100%">
+                                    </div>
+                                    <div class="col-sm-8 col-xs-9">
+                                        <span class="text-gray-1">Vee Bar Stool</span>
+                                        <p class="text-gray-2">1 x 1.000.000</p>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-3 col-xs-3 less-padding">
+                                        <img src="images/vintage.jpg" width="100%">
+                                    </div>
+                                    <div class="col-sm-8 col-xs-9">
+                                        <span class="text-gray-1">Vintage 50's</span>
+                                        <p class="text-gray-2">1 x 2.000.000</p>
+                                    </div>
+
+                                </div>
+                                
+                                <div class="row less-padding" style="background: #3E3F44;">
+                                    <div class="col-sm-6 col-xs-6 less-padding"><h4><small style="color: #C9C9C9;">Total</small><br><span style="color:#fff">IDR 225.000</span></h4></div>
+                                    <div class="col-sm-6 col-xs-6 less-padding">
+                                        <a href="checkout2.html" class="button-review-cart btn pull-right">View Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="#">Search</a></li>
                 
             </ul>
@@ -159,8 +197,8 @@
 <div class="container-fluid kimi-container">
     <ol class="breadcrumb hidden-xs">
         <li>Home</li>
-        <li><a href="channelDetail.html">Stool</a></li>
-        <li><a href="#">Vintage 50s</a></li>
+        <li><a href="products.html">Stool</a></li>
+        <li><a href="#">Vintage 50's</a></li>
     </ol>
 </div>
 
@@ -231,17 +269,17 @@
             <div class="col-md-8">
                 <div class="product-detail-action-button-container">
                     <button onclick="location.href='shoppingCart.html'" class="btn btn-default button-dark">Add to Bag</button>
-                    <button class="btn btn-default button-yellow" id="bookmarkButton">Set Favourite</button>
                     <button class="btn btn-default button-brown" id="bookmarkButton">Lookbook</button>
+                    <button class="btn btn-default button-yellow" id="bookmarkButton"><i class="fa fa-heart" aria-hidden="true"></i></button>
                     <button class="btn btn-default " id="deleteBookmarkButton" style="display: none;">Delete Favourite</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="col-md-5" style="position: relative;">
+    <div class="col-md-5" style="position: relative; background: rgba(212, 228, 241, 0.25);">
         <div class="bookmarked"><img src="images/bookmarked.png" width="86"> </div>
-        <h1>Vintage 50s</h1>
+        <h1>Vintage 50's</h1>
 
         <div class="row">
             <div class="col-md-10">
@@ -256,8 +294,11 @@
 
         <table class="table table-product-spec">
             <tr>
-                <td>Material</td>
-                <td>Wood, Fabric</td>
+                <td style="vertical-align: middle;">Material</td>
+                <td>
+                    <img src="images/photos/wood_icon.png" width="50">
+                    <img src="images/photos/fabric_icon.png" width="50">
+                </td>
             </tr>
             <tr>
                 <td>Dimension</td>

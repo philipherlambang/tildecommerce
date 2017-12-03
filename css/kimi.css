@@ -470,8 +470,12 @@ a.text-secondary:hover{
 }
 
 .cart-flyout{
-    padding: 10px;
+    padding: 0px;
     width: 300px
+}
+
+.cart-flyout h4{
+    margin-left: 20px;
 }
 
 .cart-flyout button{
@@ -490,7 +494,7 @@ a.text-secondary:hover{
 }
 
 .cart-flyout .row{
-    margin: 5px 0;
+    margin: 0px;
 }
 
 /*gap */
@@ -735,10 +739,20 @@ button, a{
     border: 1px solid #3E3F44;
 }
 
+.product-detail-action-button-container .button-dark:hover{
+    background: #FBDB00;
+    border: 1px solid #FBDB00;
+    color: #000;
+}
+
 .product-detail-action-button-container .button-yellow{
     background: #FBDB00;
     color: black;
     border: 1px solid #FBDB00;
+}
+
+.product-detail-action-button-container .button-yellow:hover{
+    color:#FBDB00;
 }
 
 .product-detail-action-button-container .button-brown{
@@ -747,11 +761,11 @@ button, a{
     border: 1px solid #CDBD9C;
 }
 
-
-
-
-
-
+.product-detail-action-button-container .button-brown:hover{
+    background: #FBDB00;
+    color: black;
+    border: 1px solid #FBDB00;
+}
 
 
 .kimi-container{
@@ -1348,6 +1362,7 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 .button-yellow:hover{
     background: #000;
     color: white;
+    border: 1px solid #000;
 }
 
 .button-red i, .button-green i{
@@ -1603,7 +1618,7 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 .thumbnail_item {
     position: relative;
     overflow: hidden;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
 }
 .thumbnail_item img {
     max-width: 100%;
@@ -1710,6 +1725,14 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
     -moz-border-radius: 2px;
     border-radius: 2px;
     border: 1px solid #fff;
+}
+
+.button-review-cart{
+    background: #FBDB00;
+    border-radius: 2px;
+    font: 16px Helvetica;
+    color: #3E3F44;
+    margin: 15px 20px;
 }
 
 .button-outline:hover{
