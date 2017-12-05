@@ -55,19 +55,50 @@
     <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
 
-    <!--tipue search-->
-    <link rel="stylesheet" href="css/tipuesearch/tipuesearch.css">
-
     <!-- jasny -->
     <link rel="stylesheet" href="css/jasny/jasny-bootstrap.css">
+     <!-- Flickity gallery styles -->
+    <link rel="stylesheet" type="text/css" href="css/flickity.css" />
+    <!-- Component styles -->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
 
 </head>
 
 <body style="background: white;">
 
 <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-  <a class="navmenu-brand" href="index.html">Tilde</a>
+  <a class="navmenu-brand" href="index.html">
+      <img src="images/logo_white.png" width="50">
+  </a>
   <ul class="nav navmenu-nav">
+    <li class="dropdown">
+        <a href="#" 
+            class="dropdown-toggle" 
+            data-toggle="dropdown" 
+            role="button" 
+            aria-haspopup="true" 
+            aria-expanded="false"
+        >
+        <img src="images/cart_white.png"> <span class="badge">0</span> </a></a>
+        <ul class="dropdown-menu">
+            <li>
+                <div class="cart-flyout">
+                    <h5 class="text-roboto text-center">Recently Added Product(s)</h5>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <img src="images/emptycart.png" width="150">
+                            <div class="maya-tiny-padding"></div>
+                            <p class="text-roboto-light">Your Basket is Empty</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </li>
+    <li><a href="search.html">Search</a></li>
+    <li><a href="login.html">Sign in</a></li>
+    
     <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
       <ul class="dropdown-menu navmenu-nav">
@@ -259,6 +290,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row mobile-slider-thumbnails">
+                        <a class="thumbnail" id="carousel-selector-0">
+                            <img src="images/photos/vintage-3a.png" width="100%">
+                        </a>
+
+                        <a class="thumbnail" id="carousel-selector-1">
+                            <img src="images/photos/vintage-4a.png" width="100%">
+                        </a>
+
+                        <a class="thumbnail" id="carousel-selector-2">
+                            <img src="images/photos/vintage-5a.png" width="100%">
+                        </a>
+                    </div>
                 </div>
                 <!--/Slider-->
             </div>
@@ -440,6 +484,10 @@
 <script src="./js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/jasny/jasny-bootstrap.js"></script>
+
+<!--kimi basic js-->
+<script src="js/kimi.js"></script>
 
 
 
@@ -490,8 +538,7 @@
     });
 </script>
 
-<!--kimi basic js-->
-<script src="js/kimi.js"></script>
+
 
 </body>
 </html>

@@ -1272,7 +1272,7 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
     font-weight:300;
     font-size: 12px;
     border: 1px solid #FBDB00;
-    padding: 5px 15px;
+    /*padding: 5px 15px;*/
     border-radius: 18px;
     background: #FBDB00;
     margin-bottom: 10px;
@@ -1929,6 +1929,27 @@ ul.pagination li.current a{
 
 /* --------------- Phone smaller start ------------------------ */
 @media (max-width: 767px) {
+    .mobile-slider-thumbnails{
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+    }
+
+    .mobile-slider-thumbnails a{
+        float: left;
+        display: block;
+        width: 33.3%;
+        padding: 5px;
+    }
+
+    .mobile-slider-thumbnails a img{
+        width: 100%;
+    }
+
+    .product-detail-action-button-container button{
+        padding: 8px 12px !important;
+    }
+
     .morphsearch-input{
         font-size: 24px !important;
     }
