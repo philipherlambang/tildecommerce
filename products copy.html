@@ -60,11 +60,6 @@
 
     <!-- jasny -->
     <link rel="stylesheet" href="css/jasny/jasny-bootstrap.css">
-    <!-- Flickity gallery styles -->
-    <link rel="stylesheet" type="text/css" href="css/flickity.css" />
-    <!-- Component styles -->
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <script src="js/modernizr.custom.js"></script>
 
 </head>
 
@@ -155,10 +150,9 @@
                 <li><a href="search.html">Search</a></li>
                 <li><a href="login.html">Sign in</a></li>
                 <li class="dropdown">
-                    <button class="cart">
-                        <img src="images/cart.png">
-                        <span class="cart__count">0</span>
-                    </button>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <img src="images/cart.png"> <span class="badge">2</span> </a></a>
+                    </a>
                     <ul class="dropdown-menu">
                         <li>
                             <div class="cart-flyout">
@@ -207,7 +201,7 @@
     <div class="maya-tiny-padding"></div>
     <div>
         <div class="row">
-            <div class="col-md-2 hidden-xs">
+            <div class="col-md-2">
                 <ul class="nav nav-stacked">
                   <li role="presentation" class="active"><a href="#">All</a></li>
                   <li role="presentation"><a href="products.html">Living Room</a></li>
@@ -285,9 +279,9 @@
             </div>
 
             <div class="col-md-10">
-                <div>
+                <div style="">
                     <!-- carousel -->
-                    <div class="small-slider owl-carousel owl-theme visible-xs" style="background: #f7f7f7; padding: 10px; margin-bottom: 20px;">
+                    <div class="small-slider owl-carousel owl-theme" style="background: #f7f7f7; padding: 10px; margin-bottom: 20px;">
                         <a href="products.html" class="item">
                             <img src="images/arsitek_icon.png">
                             <h6 class="small-text-overlay text-center">Architects</h6>
@@ -333,44 +327,85 @@
                     <div class="row">
                         
                         <div class="">
-                            <!-- Grid -->
-                            <section class="grid">
-                                <div class="grid__sizer"></div>
-                                
-                                <div class="grid__item">
-                                    <div class="slider">
-                                        <div class="slider__item"><img src="images/photos/vintage-3a-big.jpg" alt="Dummy" /></div>
-                                        <div class="slider__item"><img src="images/photos/vintage-4a-big.jpg" alt="Dummy" /></div>
-                                        <div class="slider__item"><img src="images/photos/vintage-5a-big.jpg" alt="Dummy" /></div>
+                            <div class="col-sm-6 col-md-4">
+                                <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                                    <img src="images/stool1.jpg" alt="stool">
+                                    <img src="images/sale_badge.png" class="sale-badge">
+                                </a>
+                                <div class="caption box">
+                                    <h3>Rp 1.000.000</h3>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                            <p class="min-order">Shop Bar Stools</p>
+                                        </div>
                                     </div>
-                                    <div class="meta">
-                                        <h3 class="meta__title">Vintage 50s</h3>
-                                        <span class="meta__brand">Sellemore</span>
-                                        <span class="meta__price">Rp 2.000.000</span>
-                                    </div>
-                                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
                                 </div>
+                            </div>
 
-                                <div class="grid__item">
-                                    <div class="slider">
-                                        <div class="slider__item"><img src="images/photos/Accuhichair1a.jpg" alt="Dummy" /></div>
-                                        <div class="slider__item"><img src="images/photos/Accuhichair1b.jpg" alt="Dummy" /></div>
-                                        <div class="slider__item"><img src="images/photos/Accuhichair1c.jpg" alt="Dummy" /></div>
+
+                            <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                                <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                                    <img src="images/photos/ALC201B.jpg" alt="Table">
+                                    <img src="images/sale_badge.png" class="sale-badge">
+                                </a>
+                                <div class="caption box">
+                                    <h3>Rp 1.000.000</h3>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                            <p class="min-order">Shop Bar Stools</p>
+                                        </div>
                                     </div>
-                                    <div class="meta">
-                                        <h3 class="meta__title">Dummy Product</h3>
-                                        <span class="meta__brand">Dummy Brand</span>
-                                        <span class="meta__price">$99</span>
-                                    </div>
-                                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
                                 </div>
-                            </section>
-                            <!-- /grid-->
+                            </div>
 
 
-                            
+                            <div class="col-sm-6 col-md-4">
+                                <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                                    <img src="images/photos/one-seater-2a.jpg" alt="vintage 50s">
+                                </a>
+                                <div class="caption box">
+                                    <h3>Rp 1.000.000</h3>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                            <p class="min-order">Shop Bar Stools</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                                          
+                            <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                                <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                                    <img src="images/photos/Ville-DiningNew-Table.jpg" alt="side table">
+                                </a>
+                                <div class="caption box">
+                                    <h3>Rp 1.000.000</h3>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                            <p class="min-order">Shop Bar Stools</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+                                <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                                    <img src="images/table.jpg" alt="Table">
+                                    <img src="images/sale_badge.png" class="sale-badge">
+                                </a>
+                                <div class="caption box">
+                                    <h3>Rp 1.000.000</h3>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                                            <p class="min-order">Shop Bar Stools</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                
                         </div>
                     </div>
                 </div>
@@ -401,7 +436,6 @@
     </div>
 
 </div><!-- /.container -->
-
 
 <!--include footer-->
 <div class="include-footer"></div>
@@ -438,9 +472,6 @@
         }
     })
 </script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/flickity.pkgd.min.js"></script>
-<script src="js/main.js"></script>
 
 </body>
 </html>
