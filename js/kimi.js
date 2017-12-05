@@ -53,11 +53,6 @@
 
 
 +function ($) {
-    // tipue search
-    $('#tipue_search_input').tipuesearch();
-}(jQuery);
-
-+function ($) {
     
     $('.homepage-slider').owlCarousel({
         loop:true,

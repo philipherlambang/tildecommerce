@@ -1,33 +1,4 @@
-/* General Blueprint Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-@font-face {
-	font-family: 'bpicons';
-	font-weight: normal;
-	font-style: normal;
-	src: url('../fonts/bpicons/bpicons.eot');
-	src: url('../fonts/bpicons/bpicons.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/bpicons/bpicons.woff') format('woff'),
-	url('../fonts/bpicons/bpicons.ttf') format('truetype'),
-	url('../fonts/bpicons/bpicons.svg#bpicons') format('svg');
-} /* Made with http://icomoon.io/ */
 
-/* Resets */
-*,
-*:after,
-*:before {
-	box-sizing: border-box;
-}
-
-html {
-	overflow-y: scroll; 
-}
-
-body,
-html {
-	font-size: 100%;
-	margin: 0;
-	padding: 0;
-}
 
 /* Helper classes */
 .cf:before,
