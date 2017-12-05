@@ -402,7 +402,6 @@ a.text-secondary:hover{
     background: none;
     border: none;
     font-size: 14px;
-    font-weight: bold;
     text-transform: uppercase;
     color: #000000;
 }
