@@ -1374,12 +1374,17 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
     color: black;
     border: 1px solid #fbdb00;
     border-radius: 18px;
+    padding: 6px 20px !important;
 }
 
 .button-yellow:hover{
     background: #000;
     color: white;
     border: 1px solid #000;
+}
+
+.button-yellow:focus{
+    outline: none;
 }
 
 .button-red i, .button-green i{
@@ -1652,6 +1657,7 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 .caption.box {
     padding: 15px;
     background: white;
+    margin-bottom: 20px;
 }
 .caption.box h3 {
     margin-top: 0;

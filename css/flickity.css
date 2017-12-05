@@ -125,8 +125,8 @@ http://flickity.metafizzy.co
 
 .flickity-page-dots .dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   margin: 0 8px;
   background: #333;
   border-radius: 50%;
