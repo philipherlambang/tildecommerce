@@ -21,6 +21,20 @@ button, a{
 
 a{color:#3E3F44}
 
+.panel{
+    background: none;
+}
+
+.panel-default>.panel-heading{
+    background: rgba(0,0,0,0.1);
+    color: #333;
+    font-family: Roboto;
+}
+
+.panel-default{
+    border: none;
+}
+
 .search-button{
     background: none;
     border: none;
@@ -1753,7 +1767,7 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 .button-review-cart{
     background: #FBDB00;
     border-radius: 2px;
-    font: 16px Helvetica;
+    font: 14px Helvetica;
     color: #3E3F44;
     margin: 15px 20px;
 }

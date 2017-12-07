@@ -76,7 +76,7 @@
     $('.small-slider').owlCarousel({
         loop:true,
         margin:10,
-        dots:false,
+        dots:true,
         responsive:{
             0:{
                 items:3.5
