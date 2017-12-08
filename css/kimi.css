@@ -21,6 +21,20 @@ button, a{
 
 a{color:#3E3F44}
 
+.panel{
+    background: none;
+}
+
+.panel-default>.panel-heading{
+    background: rgba(0,0,0,0.1);
+    color: #333;
+    font-family: Roboto;
+}
+
+.panel-default{
+    border: none;
+}
+
 .search-button{
     background: none;
     border: none;
@@ -1154,8 +1168,8 @@ a.default-userProductList-CardList-thumbnail:hover{
 
 .channel-info{
     position: absolute;
-    top: 0;
-    left: 15px;
+    top: 25%;
+    left: 5%;
 }
 
 .channel-cover .cover-image{
@@ -1272,7 +1286,7 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
     font-weight:300;
     font-size: 12px;
     border: 1px solid #FBDB00;
-    padding: 5px 15px;
+    /*padding: 5px 15px;*/
     border-radius: 18px;
     background: #FBDB00;
     margin-bottom: 10px;
@@ -1649,6 +1663,12 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
+
+.thumbnail_item img.full-width-image {
+    width: 100%;
+}
+
+
 .thumbnail_item:hover img {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -1753,7 +1773,7 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 .button-review-cart{
     background: #FBDB00;
     border-radius: 2px;
-    font: 16px Helvetica;
+    font: 14px Helvetica;
     color: #3E3F44;
     margin: 15px 20px;
 }
@@ -1839,8 +1859,8 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 
 .logo-avatar{
     position: absolute;
-    bottom: 50%;
-    left: 50%;
+    top: 10px;
+    right: 10px;
     overflow: hidden;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -1929,6 +1949,27 @@ ul.pagination li.current a{
 
 /* --------------- Phone smaller start ------------------------ */
 @media (max-width: 767px) {
+    .mobile-slider-thumbnails{
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+    }
+
+    .mobile-slider-thumbnails a{
+        float: left;
+        display: block;
+        width: 33.3%;
+        padding: 5px;
+    }
+
+    .mobile-slider-thumbnails a img{
+        width: 100%;
+    }
+
+    .product-detail-action-button-container button{
+        padding: 8px 12px !important;
+    }
+
     .morphsearch-input{
         font-size: 24px !important;
     }
@@ -2629,7 +2670,7 @@ and (orientation : landscape) {
     color: #333;
     -webkit-transition: font-size 0.5s cubic-bezier(0.7,0,0.3,1);
     transition: font-size 0.5s cubic-bezier(0.7,0,0.3,1);
-    font-size: 5em;
+    font-size: 3em;
 
 }
 
@@ -2667,9 +2708,11 @@ and (orientation : landscape) {
 }
 
 .morphsearch-form {
-    height: 160px;
+    height: 100px;
     -webkit-transform: translate3d(0,3em,0);
     transform: translate3d(0,3em,0);
+    background: white;
+    margin-bottom: 40px;
 }
 
 

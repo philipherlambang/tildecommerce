@@ -71,8 +71,37 @@
 <body>
 
 <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-  <a class="navmenu-brand" href="index.html">Tilde</a>
+  <a class="navmenu-brand" href="index.html">
+      <img src="images/logo_white.png" width="50">
+  </a>
   <ul class="nav navmenu-nav">
+    <li class="dropdown">
+        <a href="#" 
+            class="dropdown-toggle" 
+            data-toggle="dropdown" 
+            role="button" 
+            aria-haspopup="true" 
+            aria-expanded="false"
+        >
+        <img src="images/cart_white.png"> <span class="badge">0</span> </a></a>
+        <ul class="dropdown-menu">
+            <li>
+                <div class="cart-flyout">
+                    <h5 class="text-roboto text-center">Recently Added Product(s)</h5>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <img src="images/emptycart.png" width="150">
+                            <div class="maya-tiny-padding"></div>
+                            <p class="text-roboto-light">Your Basket is Empty</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </li>
+    <li><a href="search.html">Search</a></li>
+    <li><a href="login.html">Sign in</a></li>
+    
     <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
       <ul class="dropdown-menu navmenu-nav">
@@ -84,7 +113,7 @@
         <li><a href="products.html">Glassware</a></li>
       </ul>
     </li>
-    <li><a href="photos.html">Photos</a></li>
+    <li><a href="photos.html">Design Ideas</a></li>
     <li><a href="articles.html">Stories</a></li>
     <li><a href="questions.html">FAQs</a></li>
     <li><a href="contact.html">Contact Us</a></li>
@@ -210,16 +239,18 @@
             <div class="col-md-2 hidden-xs">
                 <ul class="nav nav-stacked">
                   <li role="presentation" class="active"><a href="#">All</a></li>
-                  <li role="presentation"><a href="products.html">Living Room</a></li>
-                  <li role="presentation"><a href="products.html">Classic</a></li>
-                  <li role="presentation"><a href="products.html">Home Office</a></li>
-                  <li role="presentation"><a href="products.html">Bedroom</a></li>
-                  <li role="presentation"><a href="products.html">Kitchen</a></li>
-                  <li role="presentation"><a href="products.html">Modern</a></li>
-                  <li role="presentation"><a href="products.html">Dining</a></li>
-                  <li role="presentation"><a href="products.html">Exterior</a></li>
-                  <li role="presentation"><a href="products.html">Bathroom</a></li>
-                  <li role="presentation"><a href="products.html">Pool</a></li>
+                  <li role="presentation"><a href="products.html">Furniture</a></li>
+                  <li role="presentation"><a href="products.html">Bedding</a></li>
+                  <li role="presentation"><a href="products.html">Lighting</a></li>
+                  <li role="presentation"><a href="products.html">Pillow & Decor</a></li>
+                  <li role="presentation"><a href="products.html">Wall Art & Mirror</a></li>
+                  <li role="presentation"><a href="products.html">Table Top</a></li>
+                  <li role="presentation"><a href="products.html">Glassware</a></li>
+                  <li role="presentation"><a href="products.html">Rugs & Windows</a></li>
+                  <li role="presentation"><a href="products.html">Houseware</a></li>
+                  <li role="presentation"><a href="products.html">Holidays</a></li>
+                  <li role="presentation"><a href="products.html">Gift</a></li>
+                  <li role="presentation"><a href="products.html">Sale</a></li>
                 </ul>
 
                 <div class="maya-small-padding">
@@ -287,45 +318,65 @@
             <div class="col-md-10">
                 <div>
                     <!-- carousel -->
-                    <div class="small-slider owl-carousel owl-theme visible-xs" style="background: #f7f7f7; padding: 10px; margin-bottom: 20px;">
+                    <div class="small-slider owl-carousel owl-theme visible-xs" style="background: #f7f7f7; padding: 0px; margin-bottom: 20px;">
                         <a href="products.html" class="item">
                             <img src="images/arsitek_icon.png">
-                            <h6 class="small-text-overlay text-center">Architects</h6>
+                            <h6 class="small-text-overlay text-center">Furniture</h6>
                         </a>
 
                         <a href="products.html" class="item">
                             <img src="images/interior_designer_icon.png">
-                            <h6 class="small-text-overlay text-center">Interior Designer</h6>
+                            <h6 class="small-text-overlay text-center">Bedding</h6>
                         </a>
 
                         <a href="products.html" class="item">
                             <img src="images/contractors_icon.png">
-                            <h6 class="small-text-overlay text-center">Contractors</h6>
+                            <h6 class="small-text-overlay text-center">Lighting</h6>
                         </a>
 
                         <a href="products.html" class="item">
                             <img src="images/home_builders_icon.png">
-                            <h6 class="small-text-overlay text-center">Home Builders</h6>
+                            <h6 class="small-text-overlay text-center">Pillow &amp; Decor</h6>
                         </a>
 
                         <a href="products.html" class="item">
                             <img src="images/landscape_designer_icon.png">
-                            <h6 class="small-text-overlay text-center">Landscape Designer</h6>
+                            <h6 class="small-text-overlay text-center">Wall Art &amp; Mirror</h6>
                         </a>
 
                         <a href="products.html" class="item">
                             <img src="images/furniture_repairs_icon.png">
-                            <h6 class="small-text-overlay text-center">Furniture Repairs</h6>
+                            <h6 class="small-text-overlay text-center">Table Top</h6>
                         </a>
 
                         <a href="products.html" class="item">
                             <img src="images/aircon_icon.png">
-                            <h6 class="small-text-overlay text-center">Air Conditioning</h6>
+                            <h6 class="small-text-overlay text-center">Glassware</h6>
                         </a>
 
                         <a href="products.html" class="item">
                             <img src="images/plumbers_icon.png">
-                            <h6 class="small-text-overlay text-center">Plumbers</h6>
+                            <h6 class="small-text-overlay text-center">Rugs &amp; Windows</h6>
+                        </a>
+
+                        <a href="products.html" class="item">
+                            <img src="images/plumbers_icon.png">
+                            <h6 class="small-text-overlay text-center">Houseware</h6>
+                        </a>
+
+                        <a href="products.html" class="item">
+                            <img src="images/plumbers_icon.png">
+                            <h6 class="small-text-overlay text-center">Holidays</h6>
+                        </a>
+
+                        <a href="products.html" class="item">
+                            <img src="images/plumbers_icon.png">
+                            <h6 class="small-text-overlay text-center">Gifts</h6>
+                        </a>
+
+                        <a href="products.html" class="item">
+                            <img src="images/plumbers_icon.png">
+                            <h6 class="small-text-overlay text-center">Sale</h6>
                         </a>
                     </div>
                     <!-- carousel -->
@@ -517,6 +568,7 @@
 <!--boostrap js-->
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/jasny/jasny-bootstrap.js"></script>
 
 <!--kimi basic js-->
 <script src="js/kimi.js"></script>
@@ -524,9 +576,9 @@
 <script>
     $('.small-slider').owlCarousel({
         loop:true,
-        margin:10,
-        nav:false,
-        dots: false,
+        margin:0,
+        autoplay:true,
+        dots: true,
         responsive:{
             0:{
                 items:3.5
