@@ -1168,8 +1168,8 @@ a.default-userProductList-CardList-thumbnail:hover{
 
 .channel-info{
     position: absolute;
-    top: 0;
-    left: 15px;
+    top: 25%;
+    left: 5%;
 }
 
 .channel-cover .cover-image{
@@ -1663,6 +1663,12 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
+
+.thumbnail_item img.full-width-image {
+    width: 100%;
+}
+
+
 .thumbnail_item:hover img {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -1853,8 +1859,8 @@ input#file-upload[type="file"], input#file-upload-mobile[type="file"] {
 
 .logo-avatar{
     position: absolute;
-    bottom: 50%;
-    left: 50%;
+    top: 10px;
+    right: 10px;
     overflow: hidden;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -2664,7 +2670,7 @@ and (orientation : landscape) {
     color: #333;
     -webkit-transition: font-size 0.5s cubic-bezier(0.7,0,0.3,1);
     transition: font-size 0.5s cubic-bezier(0.7,0,0.3,1);
-    font-size: 5em;
+    font-size: 3em;
 
 }
 
@@ -2702,9 +2708,11 @@ and (orientation : landscape) {
 }
 
 .morphsearch-form {
-    height: 160px;
+    height: 100px;
     -webkit-transform: translate3d(0,3em,0);
     transform: translate3d(0,3em,0);
+    background: white;
+    margin-bottom: 40px;
 }
 
 
