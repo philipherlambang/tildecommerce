@@ -25,6 +25,21 @@ a{color:#3E3F44}
     background: none;
 }
 
+.button-group{
+    overflow: auto;
+    margin: 20px 0 10px 0;
+}
+
+.button-group button, .button-group a{
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.button-group button i, .button-group a i{
+    font-size: 16px;
+}
+
+
 .panel-default>.panel-heading{
     background: rgba(0,0,0,0.1);
     color: #333;
@@ -100,6 +115,18 @@ a{color:#3E3F44}
     color:#ccc;
 }
 
+.save-button{
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    border-radius: 0 0 0 10px; 
+    background: #be0000;
+}
+
+.save-button i{
+    font-size: 24px; 
+    line-height: 30px;
+}
 
 .help-text{
     font-size: 12px;
