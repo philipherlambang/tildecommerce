@@ -10,6 +10,19 @@
            $(".navbar-default").removeClass("shadow");
         }
     });
+
+    $(document).ready(function() {
+      //$("#menu").removeClass(".mm-opened");
+
+      $("#menu").mmenu({
+         
+      }, {
+         // configuration
+         classNames: {
+            selected: "active"
+         }
+      });
+    });
     
     // article metainfo
     $('#imageMetainfo').on('click', function(){
@@ -109,6 +122,8 @@
             }
         }
     });
+
+
 
 
 }(jQuery);

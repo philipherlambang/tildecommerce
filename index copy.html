@@ -54,64 +54,89 @@
     <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
 
+    <!-- jasny -->
+    <link rel="stylesheet" href="css/jasny/jasny-bootstrap.css">
      <!-- Flickity gallery styles -->
     <link rel="stylesheet" type="text/css" href="css/flickity.css" />
     <!-- Component styles -->
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/modernizr.custom.js"></script>
     
-    <!-- mmenu -->
-    <link type="text/css" rel="stylesheet" href="css/mmenu/demo.css" />
-    <link type="text/css" rel="stylesheet" href="css/mmenu/jquery.mmenu.css" />
-
 
 </head>
 
 <body>
 
-<div id="page" class="visible-xs">
-    <div class="header">
-        <a href="#menu"><span></span></a>
-        <img src="images/logo_white.png" width="30">
-    </div>
-    
-    <nav id="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><span>Shop</span>
-                <ul>
-                    <li><span>Furnitures</span>
-                        <ul>
-                            <li><a href="products.html">Living Room</a></li>
-                            <li><a href="products.html">Dining Room and Kitchen</a></li>
-                            <li><a href="products.html">Bed Room</a></li>
-                            <li><a href="products.html">Home Office</a></li>
-                            <li><a href="products.html">Accent Furniture</a></li>
-                            <li><a href="products.html">Office Furniture</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="products.html">Bedding</a></li>
-                    <li><a href="products.html">Lighting</a></li>
-                    <li><a href="products.html">Pillow and Decor</a></li>
-                    <li><a href="products.html">Wall Art and Mirror</a></li>
-                    <li><a href="products.html">Table Top</a></li>
-                    <li><a href="products.html">Glassware</a></li>
-                </ul>
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+  <a class="navmenu-brand" href="index.html">
+      <img src="images/logo_white.png" width="50">
+  </a>
+  <ul class="nav navmenu-nav">
+    <li class="dropdown">
+        <a href="#" 
+            class="dropdown-toggle" 
+            data-toggle="dropdown" 
+            role="button" 
+            aria-haspopup="true" 
+            aria-expanded="false"
+        >
+        <img src="images/cart_white.png"> <span class="badge">0</span> </a></a>
+        <ul class="dropdown-menu">
+            <li>
+                <div class="cart-flyout">
+                    <h5 class="text-roboto text-center">Recently Added Product(s)</h5>
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <img src="images/emptycart.png" width="150">
+                            <div class="maya-tiny-padding"></div>
+                            <p class="text-roboto-light">Your Basket is Empty</p>
+                        </div>
+                    </div>
+                </div>
             </li>
-            <li><a href="shoppingCart.html">Cart (0)</a></li>
-            <li><a href="search.html">Search</a></li>
-            <li><a href="photos.html.html">Design Ideas</a></li>
-            <li><a href="articles.html">Stories</a></li>
-            <li><a href="questions.html">FAQs</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="products.html">Sale</a></li>
-            <li><a href="login.html">Sign in</a></li>            
         </ul>
-    </nav>
+    </li>
+    <li><a href="search.html">Search</a></li>
+    <li><a href="login.html">Sign in</a></li>
+    
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
+      <ul class="dropdown-menu navmenu-nav">
+        <li><a href="products.html">Bedding</a></li>
+        <li><a href="products.html">Lighting</a></li>
+        <li><a href="products.html">Pillow and Decor</a></li>
+        <li><a href="products.html">Wall Art and Mirror</a></li>
+        <li><a href="products.html">Table Top</a></li>
+        <li><a href="products.html">Glassware</a></li>
+      </ul>
+    </li>
+    <li><a href="photos.html">Photos</a></li>
+    <li><a href="articles.html">Stories</a></li>
+    <li><a href="questions.html">FAQs</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture <b class="caret"></b></a>
+          <ul class="dropdown-menu navmenu-nav">
+            <li><a href="products.html">Living Room</a></li>
+            <li><a href="products.html">Dining Room and Kitchen</a></li>
+            <li><a href="products.html">Bed Room</a></li>
+            <li><a href="products.html">Home Office</a></li>
+            <li><a href="products.html">Accent Furniture</a></li>
+            <li><a href="products.html">Office Furniture</a></li>
+          </ul>
+        </li>
+  </ul>
+</div>
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
 </div>
 
 
-<nav class="navbar navbar-default navbar-fixed-top hidden-xs" style="display: block">
+<nav class="navbar navbar-default navbar-fixed-top hidden-xs">
     <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -286,7 +311,7 @@
       <!-- Tab panes -->
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane fade in active" id="home">
-            <div class="">
+            <div class="responsive">
                 <div class="col-sm-6 col-md-4">
                     <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
                         <img src="images/stool1.jpg" alt="stool" class="full-width-image">
@@ -525,10 +550,12 @@
     </div>
 </div>
 
+
+
+
 <div class="container-fluid less-padding">
-    <a href="products.html">
-        <img src="images/banner_full_width.png" width="100%" class="hidden-xs">
-        <img src="images/banner_full_width_mobile.jpg" width="100%" class="visible-xs">
+    <a href="#">
+        <img src="images/banner_full_width.png" width="100%">
     </a>
 </div>
 
@@ -537,22 +564,6 @@
 <div class="include-footer"></div>
 
 <script src="./js/jquery.min.js"></script>
-<script src="./js//mmenu/jquery.mmenu.js"></script>
-
-<script type="text/javascript">
-   $(document).ready(function() {
-      //$("#menu").removeClass(".mm-opened");
-
-      $("#menu").mmenu({
-         
-      }, {
-         // configuration
-         classNames: {
-            selected: "active"
-         }
-      });
-   });
-</script>
 
 <!-- owl carousel -->
 <script src="js/owl_carousel/owl.carousel.js"></script>
@@ -560,6 +571,12 @@
 <!--boostrap js-->
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/jasny/jasny-bootstrap.js"></script>
+
+<!--tipuesearch-->
+<script src="js/tipusearch/tipuesearch_content.js"></script>
+<script src="js/tipusearch/tipuesearch_set.js"></script>
+<script src="js/tipusearch/tipuesearch.js"></script>
 
 <script src="js/slick/slick.js"></script>
 
@@ -598,13 +615,16 @@
             slidesToScroll: 1
           }
         }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
       ]
     });
-
 </script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/flickity.pkgd.min.js"></script>
 <script src="js/main.js"></script>
+
 
 
 </body>

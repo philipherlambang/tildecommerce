@@ -84,7 +84,7 @@
 
 .slider .flickity-page-dots {
 	bottom: 20px;
-	opacity: 0;
+	opacity: 1;
 	-webkit-transition: opacity .3s;
 	transition: opacity .3s;
 }

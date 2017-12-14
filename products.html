@@ -50,15 +50,10 @@
     <link rel="stylesheet" href="css/owl_carousel/owl.carousel.css">
     <link rel="stylesheet" href="css/owl_carousel/owl.theme.default.css">
 
-    <!-- slick carousel -->
-    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
 
-    <!--tipue search-->
-    <link rel="stylesheet" href="css/tipuesearch/tipuesearch.css">
+    <link type="text/css" rel="stylesheet" href="css/mmenu/demo.css" />
+    <link type="text/css" rel="stylesheet" href="css/mmenu/jquery.mmenu.css" />
 
-    <!-- jasny -->
-    <link rel="stylesheet" href="css/jasny/jasny-bootstrap.css">
     <!-- Flickity gallery styles -->
     <link rel="stylesheet" type="text/css" href="css/flickity.css" />
     <!-- Component styles -->
@@ -69,76 +64,49 @@
 
 <body>
 
-<div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-  <a class="navmenu-brand" href="index.html">
-      <img src="images/logo_white.png" width="50">
-  </a>
-  <ul class="nav navmenu-nav">
-    <li class="dropdown">
-        <a href="#" 
-            class="dropdown-toggle" 
-            data-toggle="dropdown" 
-            role="button" 
-            aria-haspopup="true" 
-            aria-expanded="false"
-        >
-        <img src="images/cart_white.png"> <span class="badge">0</span> </a></a>
-        <ul class="dropdown-menu">
-            <li>
-                <div class="cart-flyout">
-                    <h5 class="text-roboto text-center">Recently Added Product(s)</h5>
-                    <div class="row">
-                        <div class="col-xs-12 text-center">
-                            <img src="images/emptycart.png" width="150">
-                            <div class="maya-tiny-padding"></div>
-                            <p class="text-roboto-light">Your Basket is Empty</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </li>
-    <li><a href="search.html">Search</a></li>
-    <li><a href="login.html">Sign in</a></li>
+<div id="page" class="visible-xs">
+    <div class="header">
+        <a href="#menu"><span></span></a>
+        <img src="images/logo_white.png" width="30">
+    </div>
     
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
-      <ul class="dropdown-menu navmenu-nav">
-        <li><a href="products.html">Bedding</a></li>
-        <li><a href="products.html">Lighting</a></li>
-        <li><a href="products.html">Pillow and Decor</a></li>
-        <li><a href="products.html">Wall Art and Mirror</a></li>
-        <li><a href="products.html">Table Top</a></li>
-        <li><a href="products.html">Glassware</a></li>
-      </ul>
-    </li>
-    <li><a href="photos.html">Design Ideas</a></li>
-    <li><a href="articles.html">Stories</a></li>
-    <li><a href="questions.html">FAQs</a></li>
-    <li><a href="contact.html">Contact Us</a></li>
-    <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture <b class="caret"></b></a>
-          <ul class="dropdown-menu navmenu-nav">
-            <li><a href="products.html">Living Room</a></li>
-            <li><a href="products.html">Dining Room and Kitchen</a></li>
-            <li><a href="products.html">Bed Room</a></li>
-            <li><a href="products.html">Home Office</a></li>
-            <li><a href="products.html">Accent Furniture</a></li>
-            <li><a href="products.html">Office Furniture</a></li>
-          </ul>
-        </li>
-  </ul>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><span>Shop</span>
+                <ul>
+                    <li><span>Furnitures</span>
+                        <ul>
+                            <li><a href="products.html">Living Room</a></li>
+                            <li><a href="products.html">Dining Room and Kitchen</a></li>
+                            <li><a href="products.html">Bed Room</a></li>
+                            <li><a href="products.html">Home Office</a></li>
+                            <li><a href="products.html">Accent Furniture</a></li>
+                            <li><a href="products.html">Office Furniture</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">Bedding</a></li>
+                    <li><a href="products.html">Lighting</a></li>
+                    <li><a href="products.html">Pillow and Decor</a></li>
+                    <li><a href="products.html">Wall Art and Mirror</a></li>
+                    <li><a href="products.html">Table Top</a></li>
+                    <li><a href="products.html">Glassware</a></li>
+                </ul>
+            </li>
+            <li><a href="shoppingCart.html">Cart (0)</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="photos.html">Design Ideas</a></li>
+            <li><a href="articles.html">Stories</a></li>
+            <li><a href="questions.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="products.html">Sale</a></li>
+            <li><a href="login.html">Sign in</a></li>            
+        </ul>
+    </nav>
 </div>
 
-<div class="navbar navbar-default navbar-fixed-top">
-  <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
-</div>
 
-
-<nav class="navbar navbar-default navbar-fixed-top hidden-xs">
+<nav class="navbar navbar-default navbar-fixed-top hidden-xs" style="display: block">
     <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -317,7 +285,7 @@
             <div class="col-md-10">
                 <div>
                     <!-- carousel -->
-                    <div class="small-slider owl-carousel owl-theme visible-xs" style="background: #f7f7f7; padding: 0px; margin-bottom: 20px;">
+                    <div id="carousel-category-menu" class="small-slider owl-carousel owl-theme visible-xs" style="background: #f7f7f7; padding: 0px; margin-bottom: 20px;">
                         <a href="products.html" class="item">
                             <img src="images/arsitek_icon.png">
                             <h6 class="small-text-overlay text-center">Furniture</h6>
@@ -402,7 +370,6 @@
                                     </div>
                                     <div class="maya-tiny-padding"></div>
                                     <p class="text-center">
-                                        <button onclick="location.href='productDetail.html'" class="btn button-yellow">See Detail</button>
                                         <button class="btn button-yellow">Add to Cart</button>
                                     </p>
                                 </div>
@@ -426,7 +393,6 @@
                                     </div>
                                     <div class="maya-tiny-padding"></div>
                                     <p class="text-center">
-                                        <button onclick="location.href='productDetail.html'" class="btn button-yellow">See Detail</button>
                                         <button class="btn button-yellow">Add to Cart</button>
                                     </p>
                                 </div>
@@ -449,7 +415,6 @@
                                     </div>
                                     <div class="maya-tiny-padding"></div>
                                     <p class="text-center">
-                                        <button onclick="location.href='productDetail.html'" class="btn button-yellow">See Detail</button>
                                         <button class="btn button-yellow">Add to Cart</button>
                                     </p>
                                 </div>
@@ -471,7 +436,6 @@
                                     </div>
                                     <div class="maya-tiny-padding"></div>
                                     <p class="text-center">
-                                        <button onclick="location.href='productDetail.html'" class="btn button-yellow">See Detail</button>
                                         <button class="btn button-yellow">Add to Cart</button>
                                     </p>
                                 </div>
@@ -493,7 +457,6 @@
                                     </div>
                                     <div class="maya-tiny-padding"></div>
                                     <p class="text-center">
-                                        <button onclick="location.href='productDetail.html'" class="btn button-yellow">See Detail</button>
                                         <button class="btn button-yellow">Add to Cart</button>
                                     </p>
                                 </div>
@@ -516,7 +479,6 @@
                                     </div>
                                     <div class="maya-tiny-padding"></div>
                                     <p class="text-center">
-                                        <button onclick="location.href='productDetail.html'" class="btn button-yellow">See Detail</button>
                                         <button class="btn button-yellow">Add to Cart</button>
                                     </p>
                                 </div>
@@ -567,7 +529,7 @@
 <!--boostrap js-->
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="./js/bootstrap.min.js"></script>
-<script src="./js/jasny/jasny-bootstrap.js"></script>
+<script src="./js/mmenu/jquery.mmenu.js"></script>
 
 <!--kimi basic js-->
 <script src="js/kimi.js"></script>
