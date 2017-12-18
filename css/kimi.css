@@ -291,6 +291,10 @@ a.text-secondary:hover{
     color: #CC555B !important;
 }
 
+.text-green{
+    color:green;
+}
+
 .text-gray-3{
     color:#9B9B9B;
 }
@@ -2069,8 +2073,8 @@ ul.pagination li.current a{
     }
 
     .channel-cover .cover-image{
-        height: 150px;
-        float: right;
+        height: 240px;
+        /*float: right;*/
         width: auto !important;
     }
 

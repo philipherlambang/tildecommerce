@@ -49,61 +49,55 @@
     <link rel="stylesheet" href="css/owl_carousel/owl.carousel.css">
     <link rel="stylesheet" href="css/owl_carousel/owl.theme.default.css">
 
-    <!-- slick carousel -->
-    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
-
-    <!--tipue search-->
-    <link rel="stylesheet" href="css/tipuesearch/tipuesearch.css">
-
-    <!-- jasny -->
-    <link rel="stylesheet" href="css/jasny/jasny-bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/mmenu/demo.css" />
+    <link type="text/css" rel="stylesheet" href="css/mmenu/jquery.mmenu.css" />
 
 </head>
 
 <body>
 
-<div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-  <a class="navmenu-brand" href="index.html">Tilde</a>
-  <ul class="nav navmenu-nav">
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
-      <ul class="dropdown-menu navmenu-nav">
-        <li><a href="#">Bedding</a></li>
-        <li><a href="#">Lighting</a></li>
-        <li><a href="#">Pillow and Decor</a></li>
-        <li><a href="#">Wall Art and Mirror</a></li>
-        <li><a href="#">Table Top</a></li>
-        <li><a href="#">Glassware</a></li>
-      </ul>
-    </li>
-    <li><a href="photos.html">Photos</a></li>
-    <li><a href="articles.html">Stories</a></li>
-    <li><a href="questions.html">FAQs</a></li>
-    <li><a href="contact.html">Contact Us</a></li>
-    <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture <b class="caret"></b></a>
-          <ul class="dropdown-menu navmenu-nav">
-            <li><a href="#">Living Room</a></li>
-            <li><a href="#">Dining Room and Kitchen</a></li>
-            <li><a href="#">Bed Room</a></li>
-            <li><a href="#">Home Office</a></li>
-            <li><a href="#">Accent Furniture</a></li>
-            <li><a href="#">Office Furniture</a></li>
-          </ul>
-        </li>
-  </ul>
+<div class="header visible-xs">
+        <a href="#menu"><span></span></a>
+        <img src="images/logo_white.png" width="30">
+    </div>
+    
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><span>Shop</span>
+                <ul>
+                    <li><span>Furnitures</span>
+                        <ul>
+                            <li><a href="products.html">Living Room</a></li>
+                            <li><a href="products.html">Dining Room and Kitchen</a></li>
+                            <li><a href="products.html">Bed Room</a></li>
+                            <li><a href="products.html">Home Office</a></li>
+                            <li><a href="products.html">Accent Furniture</a></li>
+                            <li><a href="products.html">Office Furniture</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">Bedding</a></li>
+                    <li><a href="products.html">Lighting</a></li>
+                    <li><a href="products.html">Pillow and Decor</a></li>
+                    <li><a href="products.html">Wall Art and Mirror</a></li>
+                    <li><a href="products.html">Table Top</a></li>
+                    <li><a href="products.html">Glassware</a></li>
+                </ul>
+            </li>
+            <li><a href="shoppingCart.html">Cart (0)</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="photos.html.html">Design Ideas</a></li>
+            <li><a href="articles.html">Stories</a></li>
+            <li><a href="questions.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="products.html">Sale</a></li>
+            <li><a href="login.html">Sign in</a></li>            
+        </ul>
+    </nav>
 </div>
 
-<div class="navbar navbar-default navbar-fixed-top">
-  <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
-</div>
 
-
-<nav class="navbar navbar-default navbar-fixed-top hidden-xs">
+<nav class="navbar navbar-default navbar-fixed-top hidden-xs" style="display: block">
     <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -142,11 +136,12 @@
                 <li><a href="articles.html">Stories</a></li>
                 <li><a href="questions.html">FAQs</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sale.html">Sale</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="search.html">Search</a></li>
-                <li><a href="login.html">Sellemore</a></li>
+                <li><a href="login.html">Sign in</a></li>
                 <li class="dropdown">
                     <a href="#" 
                         class="dropdown-toggle" 
@@ -176,8 +171,8 @@
     </div>
 </nav>
 
-<div class="container kimi-container" style="">
-    <ol class="breadcrumb hidden-xs">
+<div class="container kimi-container hidden-xs">
+    <ol class="breadcrumb">
         <li><a href="index.html">Home</a></li>
         <li><a href="directory.html">Vendors</a></li>
         <li>Sellemore</li>
@@ -187,23 +182,16 @@
 <div class="container bg-white-container weekly-summary top-gray-border hidden-xs">
     <div class="row">
         <div class="col-md-4">
-            <h3 class="text-red">New Order<small class="pull-right" style="line-height: 34px;"><a href="#" class="text-secondary">Go to Order List</a></small></h3>
-            <h4>Sigit Setiadji</h4>
-            <p>5 Nasi Bakar Ayam Woku</p>
-            <strong>Tomorrow 4 PM</strong>
-            <address>
-                Gedung Graha Mitra Lt 10 Jl Gatot Subroto Kav 22 Jakarta Selatan 12950
-            </address>
-            <button class="btn button-gray-3">See Details</button>
-            <button class="btn button-red">Reject with reason</button>
+            <h3 class="text-thin">Recent Order List</h3>
+            <p>Currently there is no order</p>
         </div>
         <div class="col-md-4">
-            <h3 class="text-red">This Week Sales</h3>
+            <h3 class="text-thin">This Week Sales</h3>
             <h2>Rp 40.000</h2>
             <p>1 Transaction</p>
         </div>
         <div class="col-md-4">
-            <h3 class="text-red">Payment Method</h3>
+            <h3 class="text-thin">Payment Method</h3>
             <p>Bank Transfer : Rp 40.000</p>
         </div>
     </div>
@@ -211,37 +199,37 @@
 
 <div class="container bg-white-container weekly-summary top-gray-border hidden-xs">
     <div class="col-md-2 col-xs-6 less-padding">
-        <strong>This Week Visitor</strong>
+        <p>This Week Visitor</p>
         <h2 class="text-secondary">150</h2>
-        <p><i class="fa fa-arrow-up" aria-hidden="true"></i> <small>10% from last week</small></p>
+        <p><i class="fa fa-arrow-up text-green" aria-hidden="true"></i> <small>10% from last week</small></p>
     </div>
 
     <div class="col-md-2 col-xs-6 less-padding">
-        <strong>Average Visit Time</strong>
+        <p>Average Visit Time</p>
         <h2 class="text-secondary">5 Mins</h2>
-        <p><i class="fa fa-arrow-up" aria-hidden="true"></i> <small>20% from last week</small></p>
+        <p><i class="fa fa-arrow-up text-green" aria-hidden="true"></i> <small>20% from last week</small></p>
     </div>
 
     <div class="col-md-2 col-xs-6 less-padding">
-        <strong>Total Sales</strong>
+        <p>Total Sales</p>
         <h2 class="text-secondary">2</h2>
         <p><i class="fa fa-arrow-down text-red" aria-hidden="true"></i> <small>10% from last week</small></p>
     </div>
 
     <div class="col-md-2 col-xs-6 less-padding">
-        <strong>Omset</strong>
+        <p>Omset</p>
         <h2 class="text-secondary">Rp 40.000</h2>
         <p><i class="fa fa-arrow-down text-red" aria-hidden="true"></i> <small>20% from last week</small></p>
     </div>
 
     <div class="col-md-2 col-xs-6 less-padding">
-        <strong>Canceled Transaction</strong>
+        <p>Canceled Transaction</p>
         <h2 class="text-secondary">0</h2>
         <p><small>0% from last week</small></p>
     </div>
 
     <div class="col-md-2 col-xs-6 less-padding">
-        <strong>Total Revenue</strong>
+        <p>Total Revenue</p>
         <h2 class="text-secondary">Rp 40.000</h2>
         <p><small>0% from last week</small></p>
     </div>
@@ -249,32 +237,30 @@
 
 
 
-<div class="container channel-cover">
-    <img src="images/coverSucicakes.jpg" class="cover-image">
-    <div class="hidden-xs channel-info">
-        <h1 class="text-red">Sucicakes</h1>
-        <img src="images/premium.png" class="pull-left">
-        <h4 style="margin-left: 10px; float: left;">Premium Seller</h4>
-        <div class="clearfix maya-small-padding"></div>
-        <img src="images/halal35.png">
+<div class="container channel-cover item less-padding">
+    <div class="scrim"></div>
+    <img src="images/professional/homeDesign.jpg" class="cover-image">
+    <div class="hidden-xs channel-info" style="z-index: 99">
+        <h1 class="text-white text-center">Sellemore</h1>
+        <h4 class="text-white text-thin">Premium Seller</h4>
     </div>
-</div>
+</div><!-- /.container -->
 
 <div class="container hidden-xs bg-white" style="padding-bottom: 20px;">
     <div class="row" style="margin-top: 20px;">
         <div class="col-md-2 hidden-xs">
-            <p class=""><img src="images/sucicakes_logo.png" width="100"></p>
+            <p class=""><img src="images/sellemorelogo.png" width="100"></p>
         </div>
 
         <div class="col-md-3">
-            <p>Page: <a href="#" class="text-secondary">backtokimi.com/sucicakes</a></p>
-            <p>Coverage: Jabodetabek</p>
-            <p>Location: Kebon Jeruk, Jakarta Barat</p>
+            <p>Coverage: <span class="text-bold">Jabodetabek</span></p>
+            <p>Location: <span class="text-bold">Kebon Jeruk, Jakarta Barat</span></p>
+            <p>Reviews: <span class="text-bold">2 Reviews</span></p>
         </div>
-        <div class="col-md-4">
-            <p>Last Logged in: Wed 23 Agustus 2017</p>
-            <p>Join: April 2017</p>
-            <p>Favourites: 290</p>
+        <div class="col-md-3">
+            <p>Last Logged in: <span class="text-bold">Wed 23 Agustus 2017</span></p>
+            <p>Join: <span class="text-bold">April 2017</span></p>
+            <p>Favourites: <span class="text-bold">290</span></p>
         </div>
         <div class="col-md-3">
             <!--<button class="button-gray-2 btn btn-block">Make Favourite</button>-->
@@ -290,35 +276,31 @@
         </div>
         <div class="col-md-3">
             <strong>Saldo di Kimi</strong>
-            <h3 class="text-secondary">Rp 200.000</h3>
-            <!--<button class="btn button-red">Request Cairkan Dana</button>-->
+            <h3 class="text-secondary text-green">Rp 200.000</h3>
+            <button class="btn button-yellow">Request Cairkan Dana</button>
         </div>
         <div class="col-md-3">
-            <p>Page: <a href="channelDetail.html" class="text-secondary">backtokimi.com/sucicakes</a></p>
-            <p>Email: <a class="text-secondary" href="mailto:suci.herlambang@gmail.com">suci.herlambang@gmail.com</a></p>
-            <p>Phone: 082114666232</p>
+            <p>Page: <a href="channelDetail.html" class="text-secondary text-bold">tilde.id/sellemore</a></p>
+            <p>Email: <a class="text-secondary text-bold" href="mailto:suci.herlambang@gmail.com">info@sellemore.com</a></p>
+            <p>Phone: +62 21 58909768</p>
         </div>
         <div class="col-md-4">
             <address>
-                Address: Jl Madrasah 2 no 30 D RT 8 / RW 2
-                Kelurahan Sukabumi Utara Kecamatan Kebon Jeruk
-                Jakarta Barat 11540
+                Address: Jl. Rukan Taman Meruya Blok M No. 37, Jakarta Barat 11620
             </address>
-            <a href="channelEdit.html" class="btn button-red">Edit</a>
+            <a href="channelEdit.html" class="btn button-yellow">Edit</a>
         </div>
     </div>
 </div>
 
 <div class="container visible-xs" style="padding-top: 15px; background: white; padding-bottom: 10px; border-bottom: 1px solid #E7EAEA;">
     <div class="row">
-        <div class="col-xs-1" style="padding-left: 5px;">
-            <img src="images/premium_badge.png" style="margin-top: 10px;">
-        </div>
+        
         <div class="col-xs-3 less-padding-left">
-            <img src="images/sucicakes_logo.png" width="100%">
+            <img src="images/sellemorelogo.png" width="100%">
         </div>
-        <div class="col-xs-8 less-padding-left">
-            <p class="helvetica-18 text-bold less-margin less-padding" style="margin-top: 10px;">Sucicakes</p>
+        <div class="col-xs-9 less-padding-left">
+            <p class="helvetica-18 text-bold less-margin less-padding" style="margin-top: 10px;">Sellemore</p>
             <a href="editProfile.html" class="text-red helvetica-12 text-bold">Edit Profile</a>
         </div>
     </div>
@@ -343,15 +325,8 @@
 <div class="container visible-xs" style="padding-top: 15px; background: white; padding-bottom: 10px; border-bottom: 1px solid #E7EAEA;">
     <div class="row">
         <div class="col-xs-12">
-            <h3 class="text-red">New Order<small class="pull-right" style="line-height: 34px;"><a href="#" class="text-secondary">Go to Order List</a></small></h3>
-            <h4>Sigit Setiadji</h4>
-            <p>5 Nasi Bakar Ayam Woku</p>
-            <strong>Tomorrow 4 PM</strong>
-            <address>
-                Gedung Graha Mitra Lt 10 Jl Gatot Subroto Kav 22 Jakarta Selatan 12950
-            </address>
-            <button class="btn button-gray-3">See Details</button>
-            <button class="btn button-red">Reject with reason</button>
+            <h3 class="text-thin">Order List</h3>
+            <p>Currently there is no order</p>
         </div>
 
     </div>
@@ -362,11 +337,16 @@
 
     <div class="row maya-well-padding hidden-xs" style="background: white;">
         <div class="col-md-9">
-            <p class="helvetica-18">Sucicakes adalah home industry makanan dan kue baik modern maupun tradisional.  Didirikan oleh Aurelia Suci di tahun 2012, sekarang Sucicakes sudah melayani ratusan customer. Sucicakes sangat menjaga kualitas dan kebersihan bahan makanan.</p>
+            <p class="helvetica-18">
+                Sellemore is dedicated to provide your commercial and residential furnishing needs. We strive to offer wide selection to match your specific need. Moreover, we constantly bring the latest design and idea into our collections. <br />
+Sellemore accepts project commission for hotels, apartments, offices, restaurants, schools, homes, and showrooms.<br />
+For special projects and other inquiries, please write to us using contact form or send it to info@sellemore.com.<br />
+Below are some of the projects which we already done.
+            </p>
         </div>
 
         <div class="col-md-3">
-            <a href="channelEdit.html" class="button-red btn pull-right">Edit Seller Description</a>
+            <a href="channelEdit.html" class="button-yellow btn pull-right">Edit Seller Description</a>
         </div>
     </div>
 
@@ -652,88 +632,90 @@
 
 
         <div class="col-sm-6 visible-xs">
-            <h3 class="text-red">My Products</h3>
-            <p>Currently you have 5 products<a href="#" class="text-red pull-right">Urutkan</a></p>
+            <h3 class="text-thin">My Products</h3>
+            <p>Currently you have 5 products<a href="#" class="text-thin pull-right">Urutkan</a></p>
 
             <button class="btn btn-block button-add-product" data-toggle="modal" data-target="#uploadProductMobile"><i class="fa fa-plus" aria-hidden="true"></i> Add Product</button>
             <div class="maya-small-padding"></div>
         </div>
 
         <div class="col-sm-6 col-md-4">
-            <a href="productDetail.html" class="thumbnail less-padding default-userProductList-CardList-thumbnail">
-                <img src="images/sosisSolo.jpg" alt="sosis solo">
-                <div class="caption">
-                    <h3>Sosis Solo Sucicakes</h3>
-                    <div class="row">
-                        <div class="col-sm-8 col-xs-6">
-                            <p class="default-userProductList-CardList-price">Rp 4.500 / pcs</p>
-                            <span class="min-order">10 pcs min order</span>
-                        </div>
-
-                        <div class="col-sm-4 col-xs-6">
-                            <button onclick="location.href='shoppingCart.html;'" class="btn default-userProductList-CardList-button pull-right" role="button">Edit</button>
-                        </div>
+            <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                <img src="images/stool1.jpg" alt="stool" class="full-width-image">
+            </a>
+            <div class="caption box">
+                <h3>Rp 1.000.000</h3>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                        <p class="min-order">Shop Bar Stools</p>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
+
+        <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+            <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                <img src="images/table.jpg" alt="Table" class="full-width-image">
+            </a>
+            <div class="caption box">
+                <h3>Rp 1.000.000</h3>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                        <p class="min-order">Shop Bar Stools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="col-sm-6 col-md-4">
-            <a href="productDetail.html" class="thumbnail less-padding default-userProductList-CardList-thumbnail">
-                <img src="images/nasi_bakar_ayam_woku_2.jpg" alt="sosis solo">
-                <div class="caption">
-                    <h3>Nasi Bakar Ayam Woku</h3>
-                    <div class="row">
-                        <div class="col-sm-8 col-xs-6">
-                            <p class="default-userProductList-CardList-price">Rp 23.000 / pcs</p>
-                            <span class="min-order">5 pcs min order</span>
-                        </div>
-
-                        <div class="col-sm-4 col-xs-6">
-                            <button class="btn default-userProductList-CardList-button pull-right" role="button">Edit</button>
-                        </div>
+            <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                <img src="images/vintage.jpg" alt="vintage 50s" class="full-width-image">
+            </a>
+            <div class="caption box">
+                <h3>Rp 1.000.000</h3>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                        <p class="min-order">Shop Bar Stools</p>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
 
-        <div class="col-sm-6 col-md-4">
-            <a href="productDetail.html" class="thumbnail less-padding default-userProductList-CardList-thumbnail">
-                <img src="images/sosisSolo.jpg" alt="sosis solo">
-                <div class="caption">
-                    <h3>Sosis Solo Sucicakes</h3>
-                    <div class="row">
-                        <div class="col-sm-8 col-xs-6">
-                            <p class="default-userProductList-CardList-price">Rp 4.500 / pcs</p>
-                            <span class="min-order">10 pcs min order</span>
-                        </div>
-
-                        <div class="col-sm-4 col-xs-6">
-                            <button class="btn default-userProductList-CardList-button pull-right" role="button">Edit</button>
-                        </div>
+        <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+            <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                <img src="images/side_table.jpg" alt="side table">
+            </a>
+            <div class="caption box">
+                <h3>Rp 1.000.000</h3>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                        <p class="min-order">Shop Bar Stools</p>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
 
-        <div class="col-sm-6 col-md-4">
-            <a href="productDetail.html" class="thumbnail less-padding default-userProductList-CardList-thumbnail">
-                <img src="images/nasi_bakar_ayam_woku_2.jpg" alt="sosis solo">
-                <div class="caption">
-                    <h3>Nasi Bakar Ayam Woku</h3>
-                    <div class="row">
-                        <div class="col-sm-8 col-xs-6">
-                            <p class="default-userProductList-CardList-price">Rp 23.000 / pcs</p>
-                            <span class="min-order">5 pcs min order</span>
-                        </div>
-
-                        <div class="col-sm-4 col-xs-6">
-                            <button class="btn default-userProductList-CardList-button pull-right" role="button">Edit</button>
-                        </div>
+        <div class="col-sm-6 col-md-4" data-behavior="sample_code">
+            <a href="productDetail.html" class="thumbnail_item thumbnail less-padding less-margin">
+                <img src="images/table.jpg" alt="Table">
+            </a>
+            <div class="caption box">
+                <h3>Rp 1.000.000</h3>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="default-userProductList-CardList-price">Vee Bar Stool, black brown</p>
+                        <p class="min-order">Shop Bar Stools</p>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
+
+        
     </div>
 </div>
 
@@ -747,6 +729,7 @@
 <script src="./js/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/mmenu/jquery.mmenu.js"></script>
 
 <!--kimi basic js-->
 <script src="js/kimi.js"></script>
