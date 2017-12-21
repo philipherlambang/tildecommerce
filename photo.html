@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="Tilde.id, the Living Community">
-    <meta name="author" content="Philip Herlambang">
+    <meta name="description" content="Life is about balance and happiness. <br/> Tilde is your home directory, where inspiration and creativity begins.">
+    <meta name="author" content="">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
 
@@ -51,61 +50,56 @@
     <link rel="stylesheet" href="css/owl_carousel/owl.carousel.css">
     <link rel="stylesheet" href="css/owl_carousel/owl.theme.default.css">
 
-    <!-- slick carousel -->
-    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
-
-    <!--tipue search-->
-    <link rel="stylesheet" href="css/tipuesearch/tipuesearch.css">
-
-    <!-- jasny -->
-    <link rel="stylesheet" href="css/jasny/jasny-bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/mmenu/demo.css" />
+    <link type="text/css" rel="stylesheet" href="css/mmenu/jquery.mmenu.css" />
 
 </head>
 
 <body>
 
-<div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-  <a class="navmenu-brand" href="index.html">Tilde</a>
-  <ul class="nav navmenu-nav">
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
-      <ul class="dropdown-menu navmenu-nav">
-        <li><a href="#">Bedding</a></li>
-        <li><a href="#">Lighting</a></li>
-        <li><a href="#">Pillow and Decor</a></li>
-        <li><a href="#">Wall Art and Mirror</a></li>
-        <li><a href="#">Table Top</a></li>
-        <li><a href="#">Glassware</a></li>
-      </ul>
-    </li>
-    <li><a href="photos.html">Photos</a></li>
-    <li><a href="articles.html">Stories</a></li>
-    <li><a href="questions.html">FAQs</a></li>
-    <li><a href="contact.html">Contact Us</a></li>
-    <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Furniture <b class="caret"></b></a>
-          <ul class="dropdown-menu navmenu-nav">
-            <li><a href="#">Living Room</a></li>
-            <li><a href="#">Dining Room and Kitchen</a></li>
-            <li><a href="#">Bed Room</a></li>
-            <li><a href="#">Home Office</a></li>
-            <li><a href="#">Accent Furniture</a></li>
-            <li><a href="#">Office Furniture</a></li>
-          </ul>
-        </li>
-  </ul>
+<div id="page" class="visible-xs">
+    <div class="header">
+        <a href="#menu"><span></span></a>
+        <img src="images/logo_white.png" width="30">
+    </div>
+    
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><span>Shop</span>
+                <ul>
+                    <li><span>Furnitures</span>
+                        <ul>
+                            <li><a href="products.html">Living Room</a></li>
+                            <li><a href="products.html">Dining Room and Kitchen</a></li>
+                            <li><a href="products.html">Bed Room</a></li>
+                            <li><a href="products.html">Home Office</a></li>
+                            <li><a href="products.html">Accent Furniture</a></li>
+                            <li><a href="products.html">Office Furniture</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">Bedding</a></li>
+                    <li><a href="products.html">Lighting</a></li>
+                    <li><a href="products.html">Pillow and Decor</a></li>
+                    <li><a href="products.html">Wall Art and Mirror</a></li>
+                    <li><a href="products.html">Table Top</a></li>
+                    <li><a href="products.html">Glassware</a></li>
+                </ul>
+            </li>
+            <li><a href="shoppingCart.html">Cart (0)</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="photos.html.html">Design Ideas</a></li>
+            <li><a href="articles.html">Stories</a></li>
+            <li><a href="questions.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="products.html">Sale</a></li>
+            <li><a href="login.html">Sign in</a></li>            
+        </ul>
+    </nav>
 </div>
 
-<div class="navbar navbar-default navbar-fixed-top">
-  <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
-</div>
 
-
-<nav class="navbar navbar-default navbar-fixed-top hidden-xs">
+<nav class="navbar navbar-default navbar-fixed-top hidden-xs" style="display: block">
     <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -179,16 +173,15 @@
 </nav>
 
 <div class="container">
-    <div class="maya-tiny-padding"></div>
-    <div class="kimi-container">
-        <!--breadcrumb start-->
-        <ol class="breadcrumb hidden-xs">
+    <div class="maya-tiny-padding hidden-xs"></div>
+    <!--breadcrumb start-->
+        <ol class="kimi-container breadcrumb hidden-xs">
             <li><a href="index.html">Home</a></li>
             <li><a href="photos.html">Photos</a></li>
             <li class="active">Simple Setup for Home Office</li>
         </ol>
 
-
+    <div>
         <article>
             <div class="article-body">
                 <div class="row">
@@ -347,22 +340,7 @@
 
 <!--kimi basic js-->
 <script src="js/kimi.js"></script>
-<script src="./js/jasny/jasny-bootstrap.js"></script>
-
-<script>
-    $(function(){
-        $("#top_navigation").load("include/top_navigation.html");
-    });
-
-    $(window).on("scroll", function() {
-        if ($(this).scrollTop() > 100) {
-           $("nav").css("background","#fff");
-        }
-        else {
-           $("nav").css("background","none");
-        }
-    });
-</script>
+<script src="./js/mmenu/jquery.mmenu.js"></script>
 
 </body>
 </html>

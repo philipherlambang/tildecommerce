@@ -84,7 +84,7 @@
 
 .slider .flickity-page-dots {
 	bottom: 20px;
-	opacity: 0;
+	opacity: 1;
 	-webkit-transition: opacity .3s;
 	transition: opacity .3s;
 }
@@ -162,32 +162,7 @@
 	top: 200%;
 }
 
-/* Add to cart button */
 
-.action--buy {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 25px;
-	-webkit-transition: opacity .3s, -webkit-transform .3s;
-	transition: opacity .3s, transform .3s;
-	-webkit-transform: translate3d(-5px, 0, 0);
-	transform: translate3d(-5px, 0, 0);
-}
-
-.action--buy i{
-	font-size: 24px;
-}
-
-.no-touch .action--buy {
-	opacity: 0;
-}
-
-.no-touch .grid__item:hover .action--buy {
-	opacity: 1;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-}
 
 /* Fixed bottom bar */
 
