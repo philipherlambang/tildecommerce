@@ -90,9 +90,30 @@
         loop:true,
         margin:10,
         dots:true,
+        center: true,
         responsive:{
             0:{
-                items:3.5
+                items:4
+            },
+            600:{
+                items:4
+            },
+            1000:{
+                items:10
+            }
+        }
+    });
+
+
+    // project carousel
+    $('.project-slider').owlCarousel({
+        loop:true,
+        center: true,
+        margin:5,
+        dots:true,
+        responsive:{
+            0:{
+                items:2
             },
             600:{
                 items:4
